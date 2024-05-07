@@ -1,0 +1,164 @@
+body {
+    background: #FAEBD7;
+    display: block;
+    font-family:sans-serif;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+h1 {
+    outline-style: dotted;
+    outline-color: #4B0082;
+    text-align:center;
+    font-family: verdana;
+    color: #4B0082;
+    
+}
+
+h2 {
+    text-align:center;
+    font-family: verdana;
+    color: #4B0082;
+}
+
+h3 {
+    color: #800080;
+    text-align:center;
+}
+
+
+
+li {
+    color: #18141b;
+}
+
+.contenedorJugar{
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    margin: 5px;    
+}
+
+.opciones{
+    
+    display: flex;
+    flex-direction: column;
+    background: #FAEBD7;
+    border: rgb(117, 117, 211) 1px solid;
+    flex: 1 1 50%;
+    
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    background:#E6E6FA;
+    border: rgb(117, 117, 211) 1px solid;
+   
+}
+
+fieldset {
+    
+    text-align:left;
+
+}
+
+legend {
+    font-size: 1.2em;
+    color:  #5F9EA0;
+    font-weight: bold;
+}
+
+#final {
+    border: 0.25em solid;
+    align-content: center;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    margin-left: -115px;
+    margin-top: -80px;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    padding: 5px 15px;
+    border: 2;
+    background: #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    left: 35%;
+    margin: 10px;
+
+}
+.Color {
+    float: left;
+    display: inline;
+    width: 110px;
+    height: 40px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3em
+}
+
+
+
+.Azul {
+    background: blue;
+    color: white;
+}
+
+.Rojo {
+    background: red;
+    color: white;
+}
+
+.Naranja {
+    background: orange;
+}
+
+.Verde {
+    background: green;
+    color: white;
+}
+
+.Violeta {
+    background: violet;
+}
+
+.Amarillo {
+    background: yellow;
+}
+
+.Marron {
+    background: brown;
+    color: white;
+}
+
+.Rosa {
+    background-color: pink;
+}
+
+select {
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 0.70em;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size:12px;
+    text-align:center;
+}
